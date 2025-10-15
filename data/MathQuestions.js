@@ -540,42 +540,44 @@ export const DATA = [
   {
     id: 94,
     question:
-      "70 monkeys are swinging, 10 stopped, 15 joined. How many are swinging?",
+      "70 monkeys are swinging in the jungle, 10 got tired and rested, 15 joined the swinging. How many are swinging?",
     answer: 75,
   },
   {
     id: 95,
     question:
-      "You made 90 pancakes, ate 20, burned 10, shared 30. How many left?",
+      "You made 90 pancakes, ate 20, burned 10, shared 30. How many are left?",
     answer: 30,
   },
   {
     id: 96,
-    question: "60 dogs barking, 20 nap, then 15 wake up. How many barking now?",
+    question:
+      "60 dogs are barking, 20 decided to take a nap, then 15 wake up. How many are barking now?",
     answer: 55,
   },
   {
     id: 97,
-    question: "88 fish swimming, 28 leave, 12 join. How many now?",
+    question:
+      "88 fish are swimming in the sea, 28 leave the school of fish and 12 join. How many are there now?",
     answer: 72,
   },
 
   {
     id: 98,
     question:
-      "99 ice creams melting, 40 eaten, 9 saved in freezer. How many melting now?",
+      "99 ice creams are melting, 40 were eaten and 9 saved in the freezer. How many are melting?",
     answer: 50,
   },
   {
     id: 99,
     question:
-      "You had 77 stickers, gave away 33, then bought 22. How many now?",
+      "You had 77 stickers, gave away 33, then bought 22. How many stickers are left?",
     answer: 66,
   },
   {
     id: 100,
     question:
-      "A silly squirrel collects 100 nuts, drops 25, finds 10 more. How many nuts now?",
+      "A silly squirrel collects 100 nuts, drops 25, finds 10 more. How many nuts does he have?",
     answer: 85,
   },
 ];
