@@ -1,5 +1,6 @@
 {
   "expo": {
+    "updates": { "enabled": true, "channel": "production" },
     "name": "Second Grade Math Word Stories",
     "slug": "second-grade-math-word-stories",
     "version": "1.0.0",
@@ -13,19 +14,29 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "buildNumber": "1.0.0",
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.elsabe.secondgrademathwordstories.app",
+      "infoPlist": {
+        "ITSAppUsesNonExemptEncryption": false
+      }
     },
     "android": {
-      "versionCode": 1,
+      "versionCode": 2,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
       },
-      "edgeToEdgeEnabled": true
+      "softwareKeyboardLayoutMode": "resize",
+      "edgeToEdgeEnabled": true,
+      "package": "com.elsabe.secondgrademathwordstories.app"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "eb58ee4f-a41d-4769-aefb-be5614a4ff17"
+      }
     }
   }
 }
